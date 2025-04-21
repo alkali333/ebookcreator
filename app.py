@@ -22,7 +22,7 @@ def create_chapters(number: int, title: str, description: str) -> list:
     )
     
     content = response['response']
-    content = content.replace("\n", " ")s
+    content = content.replace("\n", " ")
     chapters = content.split(",")
     return [chapter.strip() for chapter in chapters][:number]
 
