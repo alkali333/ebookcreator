@@ -1,0 +1,5 @@
+streamlit
+pdfkit
+ollama
+requests
+wkhtmltopdf
